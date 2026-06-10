@@ -1,0 +1,70 @@
+body{
+    font-family:'Arial', sans-serif ;
+    /*background-color:rgb(27, 29, 40);*/
+    background-color:#000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.container{
+    width: 400px auto;
+    background-color:white;
+    padding: 4rem;
+    border-radius: 16px;
+    text-align: center;
+}
+.logo-container img{
+    margin: 0 auto;
+    display: flex;
+    border-radius: 18px;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 20px; /* distancia*/
+}
+
+.login-form{
+    text-align: center;
+    margin-bottom: 1em;  /*distancia para cada input*/
+}
+
+.input-form input{ 
+    width: 100%;    /*Tamaño fijo de pantalla*/
+    padding: 0.8rem;    /*Tamaño vertical*/
+    box-sizing: border-box;/*se ajustan a un tamaño*/
+    border: none;
+    font-size: 1rem; /*tamaño de letra*/
+    border-bottom: 2px solid #e50914;
+    margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    padding:1rem;    /*Tamaño horizontal*/
+    background-color: #e50914;
+    color: white; /*color del texto*/
+    border: none;    /*Sin borde*/
+    border-radius: 5px;    /*Forma del borde*/
+    font-size: 1rem;    /*tamaño de letra*/
+    cursor: pointer;     /*Efecto de boton*/
+    transition: background-color 0.3s;/*tiempo de transicion*/
+}
+button:hover{
+   background-color:#81070d;  /*nuevo color de la transicion*/
+}
+.success-message{
+    color: green;
+    margin-bottom: 20px;
+    margin-top: 20px; /*tamano de espacio*/
+    font-size: 18px;
+
+}
+.remember-forgot input{
+    margin-right: 5px;
+}
+.login-now a{
+    color: #d30812;
+    text-decoration: none;
+}
