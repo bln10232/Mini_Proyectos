@@ -22,41 +22,41 @@ body{
     flex-direction: column;
     align-items: center;
     width: 200px;
-    margin-bottom: 20px; /* distancia*/
+    margin-bottom: 20px; 
 }
 
 .login-form{
     text-align: center;
-    margin-bottom: 1em;  /*distancia para cada input*/
+    margin-bottom: 1em; 
 }
 
 .input-form input{ 
-    width: 100%;    /*Tamaño fijo de pantalla*/
-    padding: 0.8rem;    /*Tamaño vertical*/
-    box-sizing: border-box;/*se ajustan a un tamaño*/
+    width: 100%;   
+    padding: 0.8rem; 
+    box-sizing: border-box;
     border: none;
-    font-size: 1rem; /*tamaño de letra*/
+    font-size: 1rem; 
     border-bottom: 2px solid #e50914;
     margin-bottom: 10px;
 }
 button{
     width: 100%;
-    padding:1rem;    /*Tamaño horizontal*/
+    padding:1rem;
     background-color: #e50914;
-    color: white; /*color del texto*/
-    border: none;    /*Sin borde*/
-    border-radius: 5px;    /*Forma del borde*/
-    font-size: 1rem;    /*tamaño de letra*/
-    cursor: pointer;     /*Efecto de boton*/
-    transition: background-color 0.3s;/*tiempo de transicion*/
+    color: white; 
+    border: none;   
+    border-radius: 5px;   
+    font-size: 1rem;   
+    cursor: pointer;    
+    transition: background-color 0.3s;
 }
 button:hover{
-   background-color:#81070d;  /*nuevo color de la transicion*/
+   background-color:#81070d;
 }
 .success-message{
     color: green;
     margin-bottom: 20px;
-    margin-top: 20px; /*tamano de espacio*/
+    margin-top: 20px; 
     font-size: 18px;
 
 }
